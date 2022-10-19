@@ -4,4 +4,5 @@
 
 # Plugins
 - Masonry
-- Featherlight LightBox
+- Featherlight
+- Flickity

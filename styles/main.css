@@ -259,6 +259,7 @@ header.header-up {
 
 .steps img {
     width: 70%;
+    height: auto;
 }
 
 .steps li {
