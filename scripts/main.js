@@ -121,16 +121,18 @@ $(document).ready(function(){
     |----------------------------------------------------------------
     */
     
-    $('.grid').masonry({
+    let $grid = $('.grid').masonry({
         itemSelector: '.grid-item',
         columnWidth: '.grid-sizer',
         percentPosition: true, 
-        gutter: 10,
-        horizontalOrder: true, 
-        fitWidth: true
+        // gutter: 10,
+        // horizontalOrder: true, 
+        // fitWidth: true
     }); 
 
-    $(".grid").imagesLoaded(function() {})
+    $grid.imagesLoaded().progress(function() {
+        $grid.masonry('layout');
+    })
     /*
     |----------------------------------------------------------------
     | Lightbox Delay 
