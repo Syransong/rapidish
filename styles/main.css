@@ -315,6 +315,7 @@ header.header-up {
 
 .kits .grid {
     margin: 0 auto;
+    /* width: auto; */
 }
 
 .grid-sizer,.grid-item { 
@@ -527,7 +528,8 @@ header.header-up {
         display: flex;
         justify-content: flex-end;
     }
-    .gallery-masonry-wrapper.gallery-masonry-list--ready {
+
+    /* .gallery-masonry-wrapper.gallery-masonry-list--ready {
         height: auto !important;
     }
     figure.gallery-masonry-item {
@@ -544,7 +546,7 @@ header.header-up {
     .gallery-masonry {
         padding-left: 0 !important;
         padding-right: 0 !important;
-    }
+    } */
 
     .join-us h2 {
         font-size: 35px;
@@ -661,7 +663,7 @@ header.header-up {
 
     .grid-sizer,.grid-item { 
         width: 33.3333333%; 
-    }
+    } 
 
     .btn:hover {
         background-color: white;
