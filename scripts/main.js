@@ -83,7 +83,7 @@ $(document).ready(function(){
         e.preventDefault();
 
         if ($($gnTrigger).hasClass("is-active")) {
-            $(this).removeClass('is-active');
+            $($gnTrigger).removeClass("is-active");
             $($gn).slideUp();
             bodyScrollLock.enableBodyScroll(targetElement);
         }
@@ -125,14 +125,12 @@ $(document).ready(function(){
         itemSelector: '.grid-item',
         columnWidth: '.grid-sizer',
         percentPosition: true, 
-        // gutter: 10,
-        // horizontalOrder: true, 
-        // fitWidth: true
     }); 
 
     $grid.imagesLoaded().progress(function() {
         $grid.masonry('layout');
-    })
+    });
+    
     /*
     |----------------------------------------------------------------
     | Lightbox Delay 
