@@ -111,7 +111,7 @@ header {
     transition: top .3s ease;
     z-index: 999;
     background-color: #fff;
-    padding: 10px 15px;
+    padding: 10px 40px 10px 10px;
     box-shadow: rgba(0, 0, 0, 0.35) -1px 5px 5px 0px;
 }
 
@@ -257,7 +257,7 @@ header.header-up {
 }
 
 .steps img {
-    width: 70%;
+    /* width: 70%; */
     height: auto;
 }
 
